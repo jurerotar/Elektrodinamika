@@ -17,6 +17,3 @@ Dadoteko lahko odprete v urejevalniku besedil po vaši izbiri, priporočam pa sp
 * [Osnovna pravila](https://www.markdownguide.org/basic-syntax)
 * [Simboli grških črk](https://www.latex-tutorial.co\frac{m}{s}ymbols/greek-alphabet/)
 * [Matematične operacije](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Multiplication_of_two_numbers)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjEwNDI3MDNdfQ==
--->

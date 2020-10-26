@@ -1,111 +1,214 @@
 ﻿﻿###  28.11.2011
 
 ## 1. naloga
+
 **Besedilo**
-Koaksialni kabel ima žilo premera $2r_Ž=1mm$ in oklop z notranjim premerom $2r_O=5mm$. Dielektrik je polietilen z $ε_r=2.3$. Kolikšen je $Z_k$?
+
+Koaksialni kabel ima žilo premera $2r_ž=1mm$ in oklop z notranjim premerom $2r_o=5mm$. Dielektrik je polietilen z $ε_r=2.3$. Kolikšen je $Z_k$?
+
+
 
 **Rešitev**
+Uporabimo formulo $Z_k = \frac{1}{2\pi} \sqrt{\frac{\mu}{\epsilon}}\ln(\frac{r_ž}{r_o})$.
 
 
 **Rezultat**
+
+
 
 ## 2. naloga
+
 **Besedilo**
+
 Breme $R=30Ω$ povežemo s kablom $Z_k=50Ω$. Kolikšna mora biti (najkrajša) dolžina kabla, da bo preslikana impedanca bremena $Z$ čisto realna?
 
+
 **Rešitev**
 
 
+
+
 **Rezultat**
+
+
 
 ## 3. naloga
+
 **Besedilo**
-Kitajski zid poteka na zemljepisnih dolžinah od $λ_1=93º$ do $λ=120º$ in povprečni širini $φ=40º$. Kolikšna je dolžina zidu $l$ brez ovinkov?
+
+Kitajski zid poteka na zemljepisnih dolžinah od $λ_1=93º$ do $λ_2=120º$ in povprečni širini $φ=40º$. Kolikšna je dolžina zidu $l$ brez ovinkov?
+
+
 
 **Rešitev**
 
+Najprej izračunamo razliko zemljepisnih dolžin $\Delta \lambda = \lambda_2 - \lambda_1$. Nato uporabimo formulo $l = \Delta \lambda h_0 cos(φ)$, kjer upoštevamo Lamejev koeficient $h_0 = 111 \frac{km}{\circ}$.
+
+
 
 **Rezultat**
+
+
 
 ## 4. naloga
+
 **Besedilo**
-Točka $r=2m, θ=\frac{π}{6}$ in $Φ=\frac{π}{2}$ v krogelnih koordinatah ($r$, $Θ$, $Φ$) ima kartezične koordinate ($x$, $y$, $z$):
+
+Točka $r=2m, θ=\frac{π}{6}$ in $Φ=\frac{π}{2}$ v krogelnih koordinatah ($r$, $θ$, $Φ$) ima kartezične koordinate ($x$, $y$, $z$):
+
+
 
 **Rešitev**
+Za pretvorbo sferičnih koordinat v kartezične uporabimo naslednje zveze:
+$x = r sin(θ) cos(Φ)$
+$y = r sin(θ) sin(Φ)$
+$z = r cos(θ)$
+
 
 
 **Rezultat**
+
+
 
 
 ## 5. naloga
+
 **Besedilo**
-Lame-jev koeficient $h_Θ$ v krogelnih koordinatah ($r$, $Θ$, $Φ$) lahko ima naslednje merske enote (MKSA):
+
+Lamejev koeficient $h_Θ$ v krogelnih koordinatah ($r$, $Θ$, $Φ$) lahko ima naslednje merske enote (MKSA):
+
+
 
 **Rešitev**
+Lamejev koeficient $h_0 = 111 \frac{km}{\circ}$ je definiran kot razdalja, ki jo opraviš pri premiku po poldnevniku za eno stopinjo. Ker obstaja pretvorba med stopnjami in radiani, je rešitev zato $\frac{km}{rd}$.
+
 
 
 **Rezultat**
+
+
 
 
 ## 6. naloga
+
 **Besedilo**
+
 Vektorsko polje $\vec{F}=\vec{1_φ}Cρ^2$, kjer je $C$ konstanta v valjnih koordinatah ($ρ$, $φ$, $z$), ima naslednje lastnosti:
 
-**Rešitev**
 
+
+**Rešitev**
+Lastnosti vektorskega polja $\vec{F}$ ugotovimo z divergenco in rotorjem, kjer velja:
+* Vektorsko polje $\vec{F}$ ima izvor, če velja:
+	* $div(\vec{F}) = C$
+	* $rot(\vec{F}) = 0$
+* Vektorsko polje $\vec{F}$ ima vrtinec, če velja:
+	* $div(\vec{F}) = 0$
+	* $rot(\vec{F}) = \vec{1_z} \cdot C$
+*  Vektorsko polje $\vec{F}$ ima izvor, če velja:
+	* $div(\vec{F}) = 0$
+	* $rot(\vec{F}) = 0$
 
 **Rezultat**
+Vektorsko polje $\vec{F}$ ima vrtinec.
+
 
 ## 7. naloga
+
 **Besedilo**
+
 Kolikšna prostorska elektrina poganja enosmerno električno polje $\vec{E}=\vec{1_x}Cx$, kjer je $C=10\frac{A}{m^2}$ v kartezičnih koordinatah ($x$, $y$, $z$)?
 
+
+
 **Rešitev**
 
 
+
+
 **Rezultat**
+
+
 
 ## 8. naloga
+
 **Besedilo**
+
 Kolikšen tok $vec{J}$ poganja enosmerno magnetno poljsko jakost $\vec{H}=\vec{1_φ}Cρ$, kjer je $C=10\frac{A}{m^2}$ v valjnih koordinatah ($ρ$, $φ$, $z$)?
 
+
+
 **Rešitev**
 
 
+
+
 **Rezultat**
+
+
 
 ## 9. naloga
+
 **Besedilo**
+
 Vektorski potencial $\vec{A}$, kjer je $\vec{B} = rot(\vec{A})$, ima merske enote (MKSA):
 
+
+
 **Rešitev**
+**(Rešitev ni preverjena)**
+Vektorski potencial $\vec{A}$ ima enote $\frac{Vs}{m}$, ker rotor ne spremeni enote.
 
 
 **Rezultat**
+Vektorski potencial $\vec{A}$ ima enote $\frac{Vs}{m}$
+
 
 ## 10. naloga
+
 **Besedilo**
+
 Gostota pretoka zemeljskega magnetnega polja znaša v naših krajih $│B│=47μT$. Kolikšno magnetno energijo $Wm$ vsebuje kocka zraka $V=1km^3$?
 
+
+
 **Rešitev**
 
 
+
+
 **Rezultat**
+
+
 
 ## 11. naloga
+
 **Besedilo**
+
 Zavaljen maček v obliki kosmate črne krogle $(2r=30cm)$ se greje na zimskem Soncu s $\vec{S}=\vec{1_r}900\frac{W}{m}^2$. Kolikšno toplotno moč $\vec{S}$ prejema maček?
 
+
+
 **Rešitev**
+Upoštevamo, da ima maček površino $A = \pi r^2$. Velja $P = A S$.
+
 
 
 **Rezultat**
+$\vec{S}=64W$
+
 
 ## 12. naloga
+
 **Besedilo**
+
 Za funkcijo $G(r)=\frac{Ce^{-jkr}}{r}$ izračunajte $ΔG$, kjer je $C$ poljubna konstanta v krogelnih koordinatah ($r$, $Θ$, $Φ$) in $k=\frac{ω}{c}$!
 
+
+
 **Rešitev**
+Upoštevamo zvezo $ΔG = \vec{\nabla}(\vec{Δ}G)$. Najprej torej poračunamo gradient, ki nam vrne vektor, nato pa ga skalarno pomnožimo z "nablo" ($\vec{\nabla} = \frac{\partial}{\partial x} + \frac{\partial}{\partial y} + \frac{\partial}{\partial z}$).
+
 
 
 **Rezultat**
