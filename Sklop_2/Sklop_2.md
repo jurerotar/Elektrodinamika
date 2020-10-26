@@ -6,15 +6,13 @@
 
 Koaksialni kabel ima žilo premera $2r_ž=1mm$ in oklop z notranjim premerom $2r_o=5mm$. Dielektrik je polietilen z $ε_r=2.3$. Kolikšen je $Z_k$?
 
-
-
 **Rešitev**
-Uporabimo formulo $Z_k = \frac{1}{2\pi} \sqrt{\frac{\mu}{\epsilon}}\ln(\frac{r_ž}{r_o})$.
 
+Uporabimo formulo $Z_k = \frac{1}{2\pi} \sqrt{\frac{\mu}{\epsilon}}\ln(\frac{r_ž}{r_o})$.
 
 **Rezultat**
 
-
+$Z_k = 64Ω$
 
 ## 2. naloga
 
@@ -85,7 +83,7 @@ Lamejev koeficient $h_0 = 111 \frac{km}{\circ}$ je definiran kot razdalja, ki jo
 
 
 **Rezultat**
-
+$\frac{km}{rd}$
 
 
 
@@ -190,7 +188,7 @@ Zavaljen maček v obliki kosmate črne krogle $(2r=30cm)$ se greje na zimskem So
 
 
 **Rešitev**
-Upoštevamo, da ima maček površino $A = \pi r^2$. Velja $P = A S$.
+Upoštevamo, da sonce osvetljuje površino $A = \pi r^2$. Ker je izkoristek 100%, velja $P = A S$.
 
 
 
@@ -220,10 +218,10 @@ Upoštevamo zvezo $ΔG = \vec{\nabla}(\vec{Δ}G)$. Najprej torej poračunamo gra
 Stojni val opazujemo s koaksialnim merilnim vodom z zračnim dielektrikom in premično sondo s primernim detektorjem. Visokofrekvenčni izvor nastavimo na frekvenco $\vec{F}=3GHz$. Razdalja med dvema zaporednima minimumoma znaša:
 
 **Rešitev**
-
+Razdalja med dvema zaporednima minimumoma znaša točno $\frac{λ}{2}$. Uporabimo torej formulo $l = \frac{c_0}{2f}$.
 
 **Rezultat**
-
+$l = 0.05m$
 
 ## 2. naloga
 **Besedilo**
@@ -239,23 +237,34 @@ S spektralnim analizatorjem opazujemo radiodifuzni frekvenčni pas od $88MHz$ do
 Valjne koordinate ($ρ$, $φ$, $z$) točke znašajo $ρ=3m$, $φ=\frac{π}{2}$ in $z=4m$. Ista točka ima v kartezičnem koordinatnem sistemu naslednje koordinate ($x$, $y$, $z$), ko izhodišči obeh koordinatnih sistemov sovpadata:
 
 **Rešitev**
-
+Za pretvorbo valjnih koordinat v kartezične uporabimo naslednje zveze:
+$x = ρ cos(φ)$
+$y = ρ sin(φ)$
+$z = z$
 
 **Rezultat**
 
 ## 4. naloga
 **Besedilo**
-Koaksialni kabel ima polno bakreno žilo premera $2r_Ž=0.5mm$ in pleten oklop iz tankih bakrenih žičk z notranjim premerom $2r_O=5mm$. Vmes je polietilenski dielektrik z $ε_r=2.3$. Kolikšna je karakteristična impedanca $Z_K$ takšnega koaksialnega kabla?
+Koaksialni kabel ima polno bakreno žilo premera $2r_Ž=0.5mm$ in pleten oklop iz tankih bakrenih žičk z notranjim premerom $2r_O=5mm$. Vmes je polietilenski dielektrik z $ε_r=2.3$. Kolikšna je karakteristična impedanca $Z_k$ takšnega koaksialnega kabla?
+
+**Rešitev**
+
+Uporabimo formulo $Z_k = \frac{1}{2\pi} \sqrt{\frac{\mu}{\epsilon}}\ln(\frac{r_ž}{r_o})$.
+
+**Rezultat**
+
+$Z_k = 91Ω$
 
 ## 5. naloga
 **Besedilo**
 Čečenski uporniki ugrabijo letalo v Sankt Petersburgu (Leningradu, λ=31ºE, φ=60ºN) in ukažejo pilotu, da mora leteti na majhni višini na zahod. Tupoljev ima goriva za d=2000km. Na kateri zemljepisni dolžini λ' strmoglavi, ko zmanjka goriva?
 
 **Rešitev**
-
+Uporabimo formulo $l = \Delta \lambda h_0 cos(\phi)$. Ker se stopinje povečujejo od Greenwicha proti vzhodu in ker letalo leti proti zahodu, velja $\Delta \lambda = \lambda' - \lambda_1$. Iz enačbe izrazimo $\lambda'$, sledi $\lambda'= \frac{l - cos(\phi) h_0 \lambda_1}{cos(\phi) h_0}$.
 
 **Rezultat**
-
+$\lambda' = 5º$
 
 ## 6. naloga
 **Besedilo**
@@ -268,12 +277,13 @@ Vektorsko polje $\vec{F}$ zapišemo z izrazom $\vec{F}=\vec{1_φ}C/(r \cdot sin�
 
 ## 7. naloga
 **Besedilo**
-Matematični izraz $grad(A \cdot rotB - B \cdot rotA)$ vsebuje dve poljubni, zvezni in odvedljivi vektorski funkciji $A(r)$ in $B(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
+Matematični izraz $grad(\vec{A} \cdot rot \vec{B} - \vec{B} \cdot \vec{A})$ vsebuje dve poljubni, zvezni in odvedljivi vektorski funkciji $A(r)$ in $B(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
 
 **Rešitev**
-
+Za rešitev uporabimo zvezo $div(\vec{B} \times \vec{A}) = \vec{A} rot \vec{B} - \vec{B} rot \vec{A}$.
 
 **Rezultat**
+$grad(div(\vec{B} \times \vec{A}))$
 
 ## 8. naloga
 **Besedilo**
@@ -342,7 +352,7 @@ S spektralnim analizatorjem opazujemo radiodifuzni frekvenčni pas od $88MHz$ do
 
 ## 3. naloga
 **Besedilo**
-Koaksialni kabel $Z_K=50Ω$ priključimo na kondenzator $C$ z admitanco $Y=jωC=j20mS$. Kolikšna je najkrajša dolžina kabla $l$, da bo preslikana admitanca $Y'$ na drugemu koncu kabla čisto realna? Izgube v kablu zanemarimo.
+Koaksialni kabel $Z_k=50Ω$ priključimo na kondenzator $C$ z admitanco $Y=jωC=j20mS$. Kolikšna je najkrajša dolžina kabla $l$, da bo preslikana admitanca $Y'$ na drugemu koncu kabla čisto realna? Izgube v kablu zanemarimo.
 
 
 **Rešitev**
@@ -355,7 +365,10 @@ Koaksialni kabel $Z_K=50Ω$ priključimo na kondenzator $C$ z admitanco $Y=jωC=
 Valjne koordinate ($ρ$, $φ$, $z$) točke znašajo $ρ=3m$, $φ=\frac{π}{2}$ in $z=4m$. Ista točka ima v krogelnem koordinatnem sistemu naslednje koordinate ($r$, $Θ$, $Φ$), ko izhodišči obeh koordinatnih sistemov sovpadata:
 
 **Rešitev**
-
+Za pretvorbo valjnih koordinat v sferične uporabimo naslednje zveze:
+$r = \sqrt{ρ^2 + z^2}$
+$Θ = Θ$
+$φ = arctan \frac{ρ}{z}$
 
 **Rezultat**
 
@@ -366,10 +379,10 @@ Ladja odpluje iz Lizbone ($λ=9º$ W, $Φ=38º$ N) na zahod po vzporedniku $38º
 
 
 **Rešitev**
-
+Uporabimo formulo $l = \Delta \lambda h_0 cos(\phi)$. Iz enačbe izrazimo $\lambda'$, sledi $\lambda'= \frac{l + cos(\phi) h_0 \lambda_1}{cos(\phi) h_0}$.
 
 **Rezultat**
-
+$\lambda' = 15º$
 
 ## 6. naloga
 **Besedilo**
@@ -392,12 +405,13 @@ V prostoru poznamo vektorski potencial $A=\vec{1_φ}\cdot 0.0001\frac{Vs}{m}$ v 
 
 ## 8. naloga
 **Besedilo**
-Matematični izraz $div(FgradG-GgradF)$ vsebuje dve poljubni, zvezni in odvedljivi skalarni funkciji $F(r)$ in $G(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
+Matematični izraz $div(F \cdot grad(G) - G \cdot grad(F))$ vsebuje dve poljubni, zvezni in odvedljivi skalarni funkciji $F(r)$ in $G(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
 
 **Rešitev**
-
+Če pogledamo izraz v oklepaju $F \cdot grad(G) - G \cdot grad(F)$, opazimo, da imamo pravzaprav opravka s skalarjem. Ker divergence vektorskemu polju priredi skalar, divergenca skalarnega polja seveda ne obstaja. Zato izraz poenostavimo tako, da se divergence preposto znebimo.
 
 **Rezultat**
+$F \cdot grad(G) - G \cdot grad(F)$
 
 ## 9. naloga
 **Besedilo**
@@ -410,8 +424,7 @@ Koliko magnetne energije $W_m$ vsebuje zračna reža debeline $d=1mm$ in preseka
 
 ## 10. naloga
 **Besedilo**
-Lorentzova izbira $jωμεV+divA=0$ poenostavlja valovni enačbi za vektorski potencial $A$ in skalarni potencial V. Kakšne merske enote [?] ima enačba Lorentzove
-izbire v sistemu merskih enot MKSA?
+Lorentzova izbira $jωμεV+divA=0$ poenostavlja valovni enačbi za vektorski potencial $A$ in skalarni potencial $V$. Kakšne merske enote [?] ima enačba Lorentzove izbire v sistemu merskih enot MKSA?
 
 **Rešitev**
 
@@ -459,7 +472,7 @@ Digitalni števec uporabljamo kot merilnik frekvence s časom odprtja vrat $Δt=
 
 ## 3. naloga
 **Besedilo**
-Koaksialni kabel $Z_K=50Ω$ priključimo na kondenzator $C$ z admitanco $Y=jωC=j20mS$. Kolikšna je najkrajša dolžina kabla l, da bo preslikana admitanca Y' na drugemu koncu kabla popolnoma enaka Y'=Y? Izgube v kablu zanemarimo.
+Koaksialni kabel $Z_k=50Ω$ priključimo na kondenzator $C$ z admitanco $Y=jωC=j20mS$. Kolikšna je najkrajša dolžina kabla $l$, da bo preslikana admitanca $Y'$ na drugemu koncu kabla popolnoma enaka $Y'$? Izgube v kablu zanemarimo.
 
 **Rešitev**
 
@@ -468,10 +481,13 @@ Koaksialni kabel $Z_K=50Ω$ priključimo na kondenzator $C$ z admitanco $Y=jωC=
 
 ## 4. naloga
 **Besedilo**
-Kartezične koordinate (x,y,z) točke znašajo x=3m, y=4m in z=5m. Ista točka ima v krogelnem koordinatnem sistemu naslednje koordinate (r,θ,Φ), ko izhodišči obeh koordinatnih sistemov sovpadata:
+Kartezične koordinate ($x$, $y$, $z$) točke znašajo $x=3m$, $y=4m$ in $z=5m$. Ista točka ima v krogelnem koordinatnem sistemu naslednje koordinate ($r$, $θ$, $Φ$), ko izhodišči obeh koordinatnih sistemov sovpadata:
 
 **Rešitev**
-
+Za pretvorbo kartezičnih koordinat v sferične uporabimo naslednje zveze:
+$r = \sqrt{x^2 + y^2 + z^2}$
+$θ = arccos(\frac{z}{\sqrt{x^2 + y^2 + z^2}})$
+$Φ = arctan(\frac{y}{x})$
 
 **Rezultat**
 
@@ -507,12 +523,13 @@ Valovna enačba za vektorski potencial $ΔA+ω 2μεA=-μJ$ z uporabo Lorentzove
 
 ## 8. naloga
 **Besedilo**
-Matematični izraz $div(FgradG+GgradF)$ vsebuje dve poljubni, zvezni in odvedljivi skalarni funkciji $F(r)$ in $G(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
+Matematični izraz $div(F \cdot grad(G) - G \cdot grad(F))$ vsebuje dve poljubni, zvezni in odvedljivi skalarni funkciji $F(r)$ in $G(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
 
 **Rešitev**
-
+Če pogledamo izraz v oklepaju $F \cdot grad(G) - G \cdot grad(F)$, opazimo, da imamo pravzaprav opravka s skalarjem. Ker divergence vektorskemu polju priredi skalar, divergenca skalarnega polja seveda ne obstaja. Zato izraz poenostavimo tako, da se divergence preposto znebimo.
 
 **Rezultat**
+$F \cdot grad(G) - G \cdot grad(F)$
 
 ## 9. naloga
 **Besedilo**
@@ -528,9 +545,10 @@ V sicer praznem prostoru se nahajata dve različni kovinski elektrodi. Prva elek
 Zavaljen maček v obliki kosmate krogle s premerom $2r=30cm$ se greje na zimskem Soncu z gostoto pretoka moči $\vec{S}=1_r•700\frac{W}{m^2}$. Kolikšno toplotno moč $P$ prejema maček, če se $η=80%$ sončne svetlobe pretvori v toploto, ostala svetloba pa se od dlake odbija?
 
 **Rešitev**
-
+Upoštevamo, da sonce osvetljuje površino $A = \pi r^2$. Ker je izkoristek manjši kot 100%, velja $P = A S η$.
 
 **Rezultat**
+$\vec{S}=39W$
 
 ## 11. naloga
 **Besedilo**
@@ -581,7 +599,10 @@ V krogelnem koordinatnem sistemu ($r$, $Θ$, $Φ$) ima točka krogelne koordinat
 
 
 **Rešitev**
-
+Za pretvorbo sferičnih koordinat v valjne uporabimo naslednje zveze:
+$ρ = r sin(φ)$
+$Φ_valj = Φ_krog$
+$z = r cos(φ)$
 
 **Rezultat**
 
@@ -597,7 +618,7 @@ Kolikšen je Laméjev koeficient (faktor skale) hv v valjno-eliptičnem koordina
 
 ## 5. naloga
 **Besedilo**
-Koaksialni kabel $Z_K=50Ω$ dolžine $l=\frac{λ}{4}$ priključimo na kondenzator $C$ z admitanco $Y=jωC=j20mS$. Kolikšna je preslikana admitanca $Y'$ na drugemu koncu kabla? Izgube v kablu zanemarimo.
+Koaksialni kabel $Z_k=50Ω$ dolžine $l=\frac{λ}{4}$ priključimo na kondenzator $C$ z admitanco $Y=jωC=j20mS$. Kolikšna je preslikana admitanca $Y'$ na drugemu koncu kabla? Izgube v kablu zanemarimo.
 
 **Rešitev**
 
@@ -667,9 +688,10 @@ Velikost gostota pretoka zemeljskega magnetnega polja znaša v naših krajih pri
 Zavaljen maček v obliki kosmate krogle s premerom $2r=30cm$ se greje na zimskem Soncu z gostoto pretoka moči $S=1_r•700\frac{W}{m^2}$. Kolikšno toplotno moč $P$ prejema maček, če se $η=60%$ sončne svetlobe pretvori v toploto, ostala svetloba pa se od dlake odbija?
 
 **Rešitev**
-
+Upoštevamo, da sonce osvetljuje površino $A = \pi r^2$. Ker je izkoristek manjši kot 100%, velja $P = A S η$.
 
 **Rezultat**
+$\vec{S}=29W$
 
 ###  14.11.2016
 
@@ -679,9 +701,14 @@ V krogelnem koordinatnem sistemu ($r$, $Θ$, $Φ$) merimo razdaljo r od izhodiš
 
 
 **Rešitev**
-
+V krogeljnem koordinatnem sistemu velja:
+$h_r = 1$
+$h_Θ = r$
+$h_Φ = r sin(Θ)$
+Opazimo, da sta koeficienta $h_Θ$ in $h_Φ$ različna od enote in pretvarjata radiant v dolžino.
 
 **Rezultat**
+$h_Θ$ in $h_Φ$
 
 ## 2. naloga
 **Besedilo**
@@ -714,7 +741,7 @@ Valjni koordinatni sistem ($ρ$, $φ$, $z$) in krogleni koordinatni sistem ($r$,
 
 ## 5. naloga
 **Besedilo**
-Koaksialni kabel $Z_K=50Ω$ dolžine $l=\frac{λ}{2}$ priključimo na kondenzator $C$ z admitanco $Y=jωC=j20mS$. Kolikšna je preslikana admitanca $Y'$ na drugemu koncu kabla? Izgube v kablu zanemarimo.
+Koaksialni kabel $Z_k=50Ω$ dolžine $l=\frac{λ}{2}$ priključimo na kondenzator $C$ z admitanco $Y=jωC=j20mS$. Kolikšna je preslikana admitanca $Y'$ na drugemu koncu kabla? Izgube v kablu zanemarimo.
 
 **Rešitev**
 
@@ -753,7 +780,7 @@ Nekatere naloge magnetostatike $ω=0$ je možno reševati v področjih brez toko
 
 ## 9. naloga
 **Besedilo**
-Funkcijo električne poljske jakosti v prostoru opisuje izraz $E(z)=\vec{1_x}30\frac{V}{m}∙sin(kz)$ v kartezičnih koordinatah (x,y,z), kjer je $k=\frac{ω}{c_0}$, $ω=6∙107\frac{rd}{s}$ in $c_0≈3∙108\frac{m}{s}$. Kolikšna je pripadajoča gostota magnetnega pretoka B
+Funkcijo električne poljske jakosti v prostoru opisuje izraz $E(z)=\vec{1_x}30\frac{V}{m}∙sin(kz)$ v kartezičnih koordinatah ($x$, $y$, $z$), kjer je $k=\frac{ω}{c_0}$, $ω=6∙107\frac{rd}{s}$ in $c_0≈3∙108\frac{m}{s}$. Kolikšna je pripadajoča gostota magnetnega pretoka B
 
 
 **Rešitev**
@@ -802,12 +829,17 @@ Omejitev UTP kabla s štirimi paricami je presluh med katerakoli dvema paricama.
 
 ## 2. naloga
 **Besedilo**
-V krogelnem koordinatnem sistemu ($r$, $Θ$, $Φ$) merimo razdaljo r od izhodišča v metrih [$m$], polarno razdaljo $Θ$ v radianih [$rd$] in zemljepisno dolžino $Φ$ v radianih [$rd$]. Koliko Lamé-jevih koeficientov je različnih od nič v koordinatnem izhodišču?
+V krogelnem koordinatnem sistemu ($r$, $Θ$, $Φ$) merimo razdaljo r od izhodišča v metrih [$m$], polarno razdaljo $Θ$ v radianih [$rd$] in zemljepisno dolžino $Φ$ v radianih [$rd$]. Koliko Laméjevih koeficientov je različnih od nič v koordinatnem izhodišču?
 
 **Rešitev**
-
+V krogeljnem koordinatnem sistemu velja:
+$h_r = 1$
+$h_Θ = r$
+$h_Φ = r sin(Θ)$
+Opazimo, da je pri vrednost $r = 0$ le $h_r$ različen od 0.
 
 **Rezultat**
+1
 
 ## 3. naloga
 **Besedilo**
@@ -872,7 +904,7 @@ Magnetno poljsko jakost v praznem prostoru $(J=0)$ opisuje izraz $H(z)=\vec{1_y}
 
 ## 9. naloga
 **Besedilo**
-Z merilnim vodom izmerimo razmerje stojnega vala $ρ=1.667$. Kot breme uporabimo slabilec, ki je na obeh priključkih prilagojen na izbrano karakteristično impedanco $Z_K=50Ω$. Kolikšno je slabljenje a, če je drugi priključek slabilca nepovezan?
+Z merilnim vodom izmerimo razmerje stojnega vala $ρ=1.667$. Kot breme uporabimo slabilec, ki je na obeh priključkih prilagojen na izbrano karakteristično impedanco $Z_k=50Ω$. Kolikšno je slabljenje a, če je drugi priključek slabilca nepovezan?
 
 **Rešitev**
 
@@ -912,12 +944,15 @@ Piščanca pečemo v mikrovalovni pečici moči $P=800W$ na frekvenci $\vec{F}=2
 
 ## 1. naloga
 **Besedilo**
-Koaksialni kabel ima žilo premera $2r_ž=1mm$ in oklop z notranjim premerom $2r_O=5mm$. Dielektrik je penast z $ε_r=1.6$. Kolikšna je karakteristična impedanca kabla $Z_K$? Učinke upornosti vodnikov in izgub dielektrika smemo zanemariti.
+Koaksialni kabel ima žilo premera $2r_ž=1mm$ in oklop z notranjim premerom $2r_O=5mm$. Dielektrik je penast z $ε_r=1.6$. Kolikšna je karakteristična impedanca kabla $Z_k$? Učinke upornosti vodnikov in izgub dielektrika smemo zanemariti.
 
 **Rešitev**
 
+Uporabimo formulo $Z_k = \frac{1}{2\pi} \sqrt{\frac{\mu}{\epsilon}}\ln(\frac{r_ž}{r_o})$.
 
 **Rezultat**
+
+$Z_k = 76Ω$
 
 ## 2. naloga
 **Besedilo**
@@ -930,7 +965,7 @@ S spektralnim analizatorjem opazujemo frekvenčni pas GSM baznih postaj od $935M
 
 ## 3. naloga
 **Besedilo**
-Kabel s karakteristično impedanco Z_$K=50Ω$ priključimo na tuljavo $L$ z impedanco $Z=jωL=j50Ω$. Kolikšna je najkrajša dolžina kabla l, da bo preslikana impedanca $Z'$ na drugemu koncu kabla najmanjša $|Z|=|ZMIN|$? Izgube v kablu zanemarimo.
+Kabel s karakteristično impedanco Z_$K=50Ω$ priključimo na tuljavo $L$ z impedanco $Z=jωL=j50Ω$. Kolikšna je najkrajša dolžina kabla $l$, da bo preslikana impedanca $Z'$ na drugemu koncu kabla najmanjša $|Z|=|Z_min|$? Izgube v kablu zanemarimo.
 
 **Rešitev**
 
@@ -943,7 +978,10 @@ Krogelne koordinate ($r$, $Θ$, $Φ$) točke znašajo $r=10m$, $θ=1.5rd$ in $Φ
 
 
 **Rešitev**
-
+Za pretvorbo sferičnih koordinat v kartezične uporabimo naslednje zveze:
+$x = r sin(Θ) cos(φ)$
+$y = r sin(Θ) sin(φ)$
+$z = r cos(Θ)$
 
 **Rezultat**
 
@@ -971,7 +1009,7 @@ Električno poljsko jakost v praznem prostoru$(μ_0,ε_0)$ $opisuje izraz $\vec{
 
 ## 7. naloga
 **Besedilo**
-Z merilnim vodom izmerimo razmerje stojnega vala $ρ=1.667$. Kot breme uporabimo slabilec, ki je na obeh priključkih prilagojen na izbrano karakteristično impedanco $Z_K=50Ω$. Kolikšno je slabljenje a, če je drugi priključek slabilca kratko sklenjen?
+Z merilnim vodom izmerimo razmerje stojnega vala $ρ=1.667$. Kot breme uporabimo slabilec, ki je na obeh priključkih prilagojen na izbrano karakteristično impedanco $Z_k=50Ω$. Kolikšno je slabljenje a, če je drugi priključek slabilca kratko sklenjen?
 
 **Rešitev**
 
@@ -989,7 +1027,7 @@ Frekvenčno območje števca razširimo z uporabo hitrega zunanjega preddelilnik
 
 ## 9. naloga
 **Besedilo**
-Drsalec na ledu se zavrti v koordinatnem izhodišču ($x$, $y$, $z$) s kotno hitrostjo $ω=\vec{1_z}2\frac{rd}{s}$. Kolikšen je vektor hitrosti $\vec{v}=(vx,vy,vz)$ (v enotah [$\frac{m}{s}]$) konice prsta roke plesalca na položaju $r=(x,y,z)=\vec{1_x}0.6m-\vec{1_y}0.4m+\vec{1_z}1.5m$?
+Drsalec na ledu se zavrti v koordinatnem izhodišču ($x$, $y$, $z$) s kotno hitrostjo $ω=\vec{1_z}2\frac{rd}{s}$. Kolikšen je vektor hitrosti $\vec{v}=(vx,vy,vz)$ (v enotah [$\frac{m}{s}]$) konice prsta roke plesalca na položaju $r=($x$, $y$, $z$)=\vec{1_x}0.6m-\vec{1_y}0.4m+\vec{1_z}1.5m$?
 
 **Rešitev**
 
@@ -1029,7 +1067,7 @@ Ob upoštevnju Lorentzove izbire $jωμεV+divA=0$ pri definiciji vektorskega po
 
 ## 1. naloga
 **Besedilo**
-Stojni val opazujemo s koaksialnim merilnim vodom z zračnim dielektrikom in premično sondo s primernim detektorjem. Visokofrekvenčni izvor nastavimo na frekvenco $f = 1GHz$. ($c_0 ≈ 3 \cdot  10^8\frac{m}{s}$) Razdalja med dvema zaporednima minimumoma znaa:
+Stojni val opazujemo s koaksialnim merilnim vodom z zračnim dielektrikom in premično sondo s primernim detektorjem. Visokofrekvenčni izvor nastavimo na frekvenco $f = 1GHz$. ($c_0 ≈ 3 \cdot  10^8\frac{m}{s}$) Razdalja med dvema zaporednima minimumoma znaša:
 
 **Rešitev**
 
@@ -1038,12 +1076,13 @@ Stojni val opazujemo s koaksialnim merilnim vodom z zračnim dielektrikom in pre
 
 ## 2. naloga
 **Besedilo**
-Matematični izraz $\vec{A}\cdot rot\vec{B} -\vec{B}\cdot rot\vec{A}$ vsebuje dve poljubni, zvezni in odvedljivi vektorski funkciji. Z uporabo simboličnega operaterja $∇$ lahko matematični izraz poenostavimo v:
+Matematični izraz $grad(\vec{A} \cdot rot \vec{B} - \vec{B} \cdot \vec{A})$ vsebuje dve poljubni, zvezni in odvedljivi vektorski funkciji $A(r)$ in $B(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
 
 **Rešitev**
-
+Za rešitev uporabimo zvezo $div(\vec{B} \times \vec{A}) = \vec{A} rot \vec{B} - \vec{B} rot \vec{A}$.
 
 **Rezultat**
+$grad(div(\vec{B} \times \vec{A}))$
 
 ## 3. naloga
 **Besedilo**
@@ -1056,7 +1095,7 @@ Vektorsko polje zapišemo z izrazom $\vec{F}= \frac{1_r}{1_r Cr^{-2}}$ v krogeln
 
 ## 4. naloga
 **Besedilo**
-Kolikˇsen tok $i(t)$ v pokončno paličasto anteno prinaša elektrino $Q(t) = 1.0nAs \cdot  sin(ωt)$ ? Frekvenca izvora je $f = 1.0MHz$, antenska palica je sicer izolirana od okolice.
+Kolikšen tok $i(t)$ v pokončno paličasto anteno prinaša elektrino $Q(t) = 1.0nAs \cdot  sin(ωt)$ ? Frekvenca izvora je $f = 1.0MHz$, antenska palica je sicer izolirana od okolice.
 
 **Rešitev**
 
@@ -1069,9 +1108,10 @@ Kolikˇsen tok $i(t)$ v pokončno paličasto anteno prinaša elektrino $Q(t) = 1
 Zavaljen maček v obliki kosmate krogle s premerom $2r = 30cm$ se greje na zimskem Soncu z gostoto pretoka moči $\vec{S} = \vec{1_r} \cdot  500\frac{W}{m^2}$ . Kolikšno toplotno moč $P$ prejema maček, če se $η = 71%$ sončne svetlobe pretvori v toploto, ostala svetloba pa se od dlake odbija?
 
 **Rešitev**
-
+Upoštevamo, da sonce osvetljuje površino $A = \pi r^2$. Ker je izkoristek manjši kot 100%, velja $P = A S η$.
 
 **Rezultat**
+$\vec{S}=25W$
 
 
 ## 6. naloga
@@ -1079,13 +1119,16 @@ Zavaljen maček v obliki kosmate krogle s premerom $2r = 30cm$ se greje na zimsk
 Valjne koordinate točke znašajo $ρ = 1m$, $φ = \frac{π}{2}$ in $z = 1m$. Kolikšne so krogelne koordinate ($r$, $Θ$, $Φ$) iste toške, če sta oba koordinatna sistema enako orientirana in imata isto izhodišče?
 
 **Rešitev**
-
+Za pretvorbo valjnih koordinat v sferične uporabimo naslednje zveze:
+$r = \sqrt{ρ^2 + z^2}$
+$Θ = Θ$
+$φ = arctan \frac{ρ}{z}$
 
 **Rezultat**
 
 ## 7. naloga
 **Besedilo**
-Z merilnim vodom izmerimo razmerje stojnega vala $ρ = 3.00$. Breme je koaksialni kabel iste nazivne karakteristične impedance $Z_K = 50Ω$, ki je na drugem koncu kratko sklenjen. Kolikšno je slabljenje kabla $a$?
+Z merilnim vodom izmerimo razmerje stojnega vala $ρ = 3.00$. Breme je koaksialni kabel iste nazivne karakteristične impedance $Z_k = 50Ω$, ki je na drugem koncu kratko sklenjen. Kolikšno je slabljenje kabla $a$?
 
 **Rešitev**
 

@@ -285,7 +285,7 @@ izmenični vir?
 **Besedilo**
 Po majhni krožni zanki s polmerom a (velja a«r in a«1/k) teče izmenični tok I=konst.
 Zanka se nahaja v ravnini XY v koordinatnem izhodišču. Kolikšen skalarni potencial
-V(r,Θ,Φ)=? ustvarja zanka na velikih razdaljah r? (k=ω√με, Z0=377Ω)
+V($r$, $θ$, $Φ$)=? ustvarja zanka na velikih razdaljah r? (k=ω√με, Z0=377Ω)
 
 **Rešitev**
 
