@@ -246,7 +246,7 @@ $z = z$
 
 ## 4. naloga
 **Besedilo**
-Koaksialni kabel ima polno bakreno žilo premera $2r_Ž=0.5mm$ in pleten oklop iz tankih bakrenih žičk z notranjim premerom $2r_O=5mm$. Vmes je polietilenski dielektrik z $ε_r=2.3$. Kolikšna je karakteristična impedanca $Z_k$ takšnega koaksialnega kabla?
+Koaksialni kabel ima polno bakreno žilo premera $2r_ž=0.5mm$ in pleten oklop iz tankih bakrenih žičk z notranjim premerom $2r_O=5mm$. Vmes je polietilenski dielektrik z $ε_r=2.3$. Kolikšna je karakteristična impedanca $Z_k$ takšnega koaksialnega kabla?
 
 **Rešitev**
 
@@ -277,7 +277,7 @@ Vektorsko polje $\vec{F}$ zapišemo z izrazom $\vec{F}=\vec{1_φ}C/(r \cdot sin�
 
 ## 7. naloga
 **Besedilo**
-Matematični izraz $grad(\vec{A} \cdot rot \vec{B} - \vec{B} \cdot \vec{A})$ vsebuje dve poljubni, zvezni in odvedljivi vektorski funkciji $A(r)$ in $B(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
+Matematični izraz $grad(\vec{A} \cdot rot \vec{B} - \vec{B} \cdot rot \vec{A})$ vsebuje dve poljubni, zvezni in odvedljivi vektorski funkciji $A(r)$ in $B(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
 
 **Rešitev**
 Za rešitev uporabimo zvezo $div(\vec{B} \times \vec{A}) = \vec{A} rot \vec{B} - \vec{B} rot \vec{A}$.
@@ -526,7 +526,7 @@ Valovna enačba za vektorski potencial $ΔA+ω 2μεA=-μJ$ z uporabo Lorentzove
 Matematični izraz $div(F \cdot grad(G) - G \cdot grad(F))$ vsebuje dve poljubni, zvezni in odvedljivi skalarni funkciji $F(r)$ in $G(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
 
 **Rešitev**
-Če pogledamo izraz v oklepaju $F \cdot grad(G) - G \cdot grad(F)$, opazimo, da imamo pravzaprav opravka s skalarjem. Ker divergence vektorskemu polju priredi skalar, divergenca skalarnega polja seveda ne obstaja. Zato izraz poenostavimo tako, da se divergence preposto znebimo.
+Če pogledamo izraz v oklepaju $F \cdot grad(G) - G \cdot grad(F)$, opazimo, da imamo pravzaprav opravka s skalarjem. Ker divergenca vektorskemu polju priredi skalar, divergenca skalarnega polja seveda ne obstaja. Zato izraz poenostavimo tako, da se divergence preposto znebimo.
 
 **Rezultat**
 $F \cdot grad(G) - G \cdot grad(F)$
@@ -601,7 +601,7 @@ V krogelnem koordinatnem sistemu ($r$, $Θ$, $Φ$) ima točka krogelne koordinat
 **Rešitev**
 Za pretvorbo sferičnih koordinat v valjne uporabimo naslednje zveze:
 $ρ = r sin(φ)$
-$Φ_valj = Φ_krog$
+$Φ_{valj} = Φ_krog$
 $z = r cos(φ)$
 
 **Rezultat**
@@ -780,7 +780,7 @@ Nekatere naloge magnetostatike $ω=0$ je možno reševati v področjih brez toko
 
 ## 9. naloga
 **Besedilo**
-Funkcijo električne poljske jakosti v prostoru opisuje izraz $E(z)=\vec{1_x}30\frac{V}{m}∙sin(kz)$ v kartezičnih koordinatah ($x$, $y$, $z$), kjer je $k=\frac{ω}{c_0}$, $ω=6∙107\frac{rd}{s}$ in $c_0≈3∙108\frac{m}{s}$. Kolikšna je pripadajoča gostota magnetnega pretoka B
+Funkcijo električne poljske jakosti v prostoru opisuje izraz $E(z)=\vec{1_x}30\frac{V}{m} \cdot sin(kz)$ v kartezičnih koordinatah ($x$, $y$, $z$), kjer je $k=\frac{ω}{c_0}$, $ω=6 \cdot 107\frac{rd}{s}$ in $c_0≈3 \cdot 108\frac{m}{s}$. Kolikšna je pripadajoča gostota magnetnega pretoka B
 
 
 **Rešitev**
@@ -790,7 +790,7 @@ Funkcijo električne poljske jakosti v prostoru opisuje izraz $E(z)=\vec{1_x}30\
 
 ## 10. naloga
 **Besedilo**
-Kolikšna bi morala biti velikost električne poljske jakosti $|\vec{E}|$ v zraku (praznem prostoru), ko bi vso energijo zemeljskega magnetnega polja $|B|=46μT$ pretvorili v elektrostatično energijo? $(ε_0≈1/(4π∙9∙109)\frac{As}{Vm}$, $μ_0=4π∙10^{-7}\frac{Vs}{Am}$, $c_0≈3∙108\frac{m}{s})$
+Kolikšna bi morala biti velikost električne poljske jakosti $|\vec{E}|$ v zraku (praznem prostoru), ko bi vso energijo zemeljskega magnetnega polja $|B|=46μT$ pretvorili v elektrostatično energijo? $(ε_0≈1/(4π \cdot 9 \cdot 109)\frac{As}{Vm}$, $μ_0=4π \cdot 10^{-7}\frac{Vs}{Am}$, $c_0≈3 \cdot 108\frac{m}{s})$
 
 
 **Rešitev**
@@ -853,7 +853,7 @@ Vektorski voltmeter ima dve sondi A in B s priključkoma BNC, ki delata v frekve
 
 ## 4. naloga
 **Besedilo**
-V celotnem prostoru deluje konstantna sila $\vec{F}=(3N,-4N,2N)$ zapisana v kartezičnih koordinatah ($x$, $y$, $z$). Kolikšno delo $W$ moramo opraviti, da se premaknemo iz točke $r_1=(3m,15m,12m) v točko r_2=(1m,1m,9m)$?
+V celotnem prostoru deluje konstantna sila $\vec{F}=(3N,-4N,2N)$ zapisana v kartezičnih koordinatah ($x$, $y$, $z$). Kolikšno delo $W$ moramo opraviti, da se premaknemo iz točke $r_1$=(3m,15m,12m)$ v točko $r_2=(1m,1m,9m)$?
 
 
 **Rešitev**
@@ -875,7 +875,7 @@ V celotnem prostoru deluje konstantna sila $\vec{F}=(3N,-4N,2N)$ zapisana v kart
 
 ## 6. naloga
 **Besedilo**
-Vektorsko polje zapišemo z izrazom $\vec{F}=1ФC/(r∙sinθ)$ v krogelnih koordinatah $(r,θ,Ф)$. V izrazu je C dana konstanta, ki vsebuje tudi merske enote. Vektorsko polje $F$ ima naslednjo lastnost:
+Vektorsko polje zapišemo z izrazom $\vec{F}=1ФC/(r \cdot sinθ)$ v krogelnih koordinatah $(r,θ,Ф)$. V izrazu je C dana konstanta, ki vsebuje tudi merske enote. Vektorsko polje $F$ ima naslednjo lastnost:
 
 **Rešitev**
 
@@ -894,7 +894,7 @@ Lecher-jev vod dolžine $l=120cm$ je na enem koncu stalno kratkosklenjen. Dielek
 
 ## 8. naloga
 **Besedilo**
-Magnetno poljsko jakost v praznem prostoru $(J=0)$ opisuje izraz $H(z)=\vec{1_y}32mA/m∙sin(kz)$ v kartezičnih koordinatah ($x$, $y$, $z$), kjer je $k=\frac{ω {c_0}, ω=6∙107\frac{rd}{s}, ε_0≈1/(4π∙9∙109)\frac{As}{Vm}$ in $c_0≈3∙108\frac{m}{s}$. Kateri izraz opisuje pripadajočo električna poljska jakost $E$
+Magnetno poljsko jakost v praznem prostoru $(J=0)$ opisuje izraz $H(z)=\vec{1_y}32mA/m \cdot sin(kz)$ v kartezičnih koordinatah ($x$, $y$, $z$), kjer je $k=\frac{ω {c_0}, ω=6 \cdot 107\frac{rd}{s}, ε_0≈1/(4π \cdot 9 \cdot 109)\frac{As}{Vm}$ in $c_0≈3 \cdot 108\frac{m}{s}$. Kateri izraz opisuje pripadajočo električna poljska jakost $E$
 
 
 **Rešitev**
@@ -923,7 +923,7 @@ Elektromagnetno polje poganjajo viri z znanima ploskovno gostoto toka $J(r)$ in 
 
 ## 11. naloga
 **Besedilo**
-Koliko električne energije W vsebuje kubični kilometer $V=1km^3$ ozračja pod nevihtnim oblakom tik pred udarom strele? Prebojna trdnost zraka znaša $|E_{MAX}|=2.1\frac{MV}{m}$. Dielektričnost zraka je zelo blizu praznemu prostoru $ε≈ε_0≈1/(4π∙9∙109)\frac{As}{Vm}$.
+Koliko električne energije W vsebuje kubični kilometer $V=1km^3$ ozračja pod nevihtnim oblakom tik pred udarom strele? Prebojna trdnost zraka znaša $|E_{MAX}|=2.1\frac{MV}{m}$. Dielektričnost zraka je zelo blizu praznemu prostoru $ε≈ε_0≈1/(4π \cdot 9 \cdot 109)\frac{As}{Vm}$.
 
 
 **Rešitev**
@@ -999,7 +999,7 @@ Vektorsko polje zapišemo z izrazom $\vec{F}=1θC•r•sinθ$ v krogelnih koord
 
 ## 6. naloga
 **Besedilo**
-Električno poljsko jakost v praznem prostoru$(μ_0,ε_0)$ $opisuje izraz $\vec{E}=1θ600V∙e-jkr/r v$ krogelnih koordinatah ($r$, $Θ$, $Φ$). Kolikšna je pripadajoča gostota magnetnega pretoka $B$ Valovno število znaša $k=20\frac{rd}{m} pri c_0≈3∙108\frac{m}{s}$.
+Električno poljsko jakost v praznem prostoru$(μ_0,ε_0)$ $opisuje izraz $\vec{E}=1θ600V \cdot e-jkr/r v$ krogelnih koordinatah ($r$, $Θ$, $Φ$). Kolikšna je pripadajoča gostota magnetnega pretoka $B$ Valovno število znaša $k=20\frac{rd}{m} pri c_0≈3 \cdot 108\frac{m}{s}$.
 
 
 **Rešitev**
@@ -1036,7 +1036,7 @@ Drsalec na ledu se zavrti v koordinatnem izhodišču ($x$, $y$, $z$) s kotno hit
 
 ## 10. naloga
 **Besedilo**
-Velikost gostote pretoka zemeljskega magnetnega polja znaša v naših krajih $│B│=47μT$. Kolikšno magnetno energijo Wm vsebuje okrogel balon premera $2r=30m$, napolnjen z vročim zrakom? ($μ_0=4π∙10^{-7}\frac{Vs}{Am}$)
+Velikost gostote pretoka zemeljskega magnetnega polja znaša v naših krajih $│B│=47μT$. Kolikšno magnetno energijo Wm vsebuje okrogel balon premera $2r=30m$, napolnjen z vročim zrakom? ($μ_0=4π \cdot 10^{-7}\frac{Vs}{Am}$)
 
 
 **Rešitev**
@@ -1076,7 +1076,7 @@ Stojni val opazujemo s koaksialnim merilnim vodom z zračnim dielektrikom in pre
 
 ## 2. naloga
 **Besedilo**
-Matematični izraz $grad(\vec{A} \cdot rot \vec{B} - \vec{B} \cdot \vec{A})$ vsebuje dve poljubni, zvezni in odvedljivi vektorski funkciji $A(r)$ in $B(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
+Matematični izraz $grad(\vec{A} \cdot rot \vec{B} - \vec{B} \cdot rot \vec{A})$ vsebuje dve poljubni, zvezni in odvedljivi vektorski funkciji $A(r)$ in $B(r)$. Z uporabo simboličnega operaterja $▼$ lahko matematični izraz poenostavimo v:
 
 **Rešitev**
 Za rešitev uporabimo zvezo $div(\vec{B} \times \vec{A}) = \vec{A} rot \vec{B} - \vec{B} rot \vec{A}$.
