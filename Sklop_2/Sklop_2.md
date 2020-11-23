@@ -22,7 +22,7 @@ Breme $R=30Ω$ povežemo s kablom $Z_k=50Ω$. Kolikšna mora biti (najkrajša) d
 
 
 **Rešitev**
-
+Najprej izračunamo odbojnost $Γ = \frac{R-Z_k}{R+Z_k}$.
 
 
 
@@ -155,7 +155,7 @@ Vektorski potencial $\vec{A}$, kjer je $\vec{B} = rot(\vec{A})$, ima merske enot
 
 **Rešitev**
 **(Rešitev ni preverjena)**
-Vektorski potencial $\vec{A}$ ima enote $\frac{Vs}{m}$, ker rotor ne spremeni enote.
+Vektorski potencial $\vec{A}$ ima enote $\frac{Vs}{m}$, ker rotor ne spremeni enot.
 
 
 **Rezultat**
@@ -166,12 +166,10 @@ Vektorski potencial $\vec{A}$ ima enote $\frac{Vs}{m}$
 
 **Besedilo**
 
-Gostota pretoka zemeljskega magnetnega polja znaša v naših krajih $│B│=47μT$. Kolikšno magnetno energijo $Wm$ vsebuje kocka zraka $V=1km^3$?
-
-
+Gostota pretoka zemeljskega magnetnega polja znaša v naših krajih $│B│=47μT$. Kolikšno magnetno energijo $W_m$ vsebuje kocka zraka $V=1km^3$?
 
 **Rešitev**
-
+Magnetna energija je definirana kot $W_m = \frac{1}{2} \int{\vec{H} \cdot \vec{B} \cdot dv}$. Uporabimo enakost $B = \mu H$, kar nas pripelje do enačbe $W_m = \frac{1}{2} \int_{0}^{1000}{dx} \int_{0}^{1000}{dy}\int_{0}^{1000}{\mu \vec{B}^2 \cdot dz}$.
 
 
 
@@ -676,7 +674,7 @@ Z Lecherjevim vodom določimo frekvenco vira $f'=1GHz$. Kolikšna je resnična f
 
 ## 11. naloga
 **Besedilo**
-Velikost gostota pretoka zemeljskega magnetnega polja znaša v naših krajih približno $|B|=46μT$. Kolikšno magnetno energijo Wm vsebuje krogla s polmerom $r=1m$, če v krogli in v njeni neposredni bližini velja $μ=μ_0$, torej v odsotnosti feromagnetikov?
+Velikost gostota pretoka zemeljskega magnetnega polja znaša v naših krajih približno $|B|=46μT$. Kolikšno magnetno energijo W_m vsebuje krogla s polmerom $r=1m$, če v krogli in v njeni neposredni bližini velja $μ=μ_0$, torej v odsotnosti feromagnetikov?
 
 **Rešitev**
 
@@ -1036,7 +1034,7 @@ Drsalec na ledu se zavrti v koordinatnem izhodišču ($x$, $y$, $z$) s kotno hit
 
 ## 10. naloga
 **Besedilo**
-Velikost gostote pretoka zemeljskega magnetnega polja znaša v naših krajih $│B│=47μT$. Kolikšno magnetno energijo Wm vsebuje okrogel balon premera $2r=30m$, napolnjen z vročim zrakom? ($μ_0=4π \cdot 10^{-7}\frac{Vs}{Am}$)
+Velikost gostote pretoka zemeljskega magnetnega polja znaša v naših krajih $│B│=47μT$. Kolikšno magnetno energijo W_m vsebuje okrogel balon premera $2r=30m$, napolnjen z vročim zrakom? ($μ_0=4π \cdot 10^{-7}\frac{Vs}{Am}$)
 
 
 **Rešitev**
@@ -1173,7 +1171,7 @@ Grid-dip meter in Lecherjev vod omogočata podobne meritve, kjer je glavna predn
 
 ## 12. naloga
 **Besedilo**
-Električno energijo v zraku $e_r ≈ 1$ daje polje $|\vec{E} | = 1 \frac{MV}{m}$. Kolikšna gostota magnetnega pretoka $|\vec{B}|$ bi dala enako gostoto magnetne energije $dWm/dv = dWe/dv$?
+Električno energijo v zraku $e_r ≈ 1$ daje polje $|\vec{E} | = 1 \frac{MV}{m}$. Kolikšna gostota magnetnega pretoka $|\vec{B}|$ bi dala enako gostoto magnetne energije $dW_m/dv = dWe/dv$?
 
 **Rešitev**
 
