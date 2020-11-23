@@ -577,7 +577,7 @@ Teslov transformator za f=30kHz proizvaja v neposredni bližini zelo močno stat
 
 ## 2. naloga
 **Besedilo**
-Kolikšna magneta energija Wm je shranjena v zračni reži debeline d=1mm in prereza A=10cm2? Zračno režo obravnavamo kot prazen prostor μ_r=1 in ε_r=1. V reži vzpostavimo enosmerno magnetno polje |B|=1.2T. Električnega polja v reži ni: E=0.
+Kolikšna magneta energija W_m je shranjena v zračni reži debeline d=1mm in prereza A=10cm2? Zračno režo obravnavamo kot prazen prostor μ_r=1 in ε_r=1. V reži vzpostavimo enosmerno magnetno polje |B|=1.2T. Električnega polja v reži ni: E=0.
 
 **Rešitev**
 
