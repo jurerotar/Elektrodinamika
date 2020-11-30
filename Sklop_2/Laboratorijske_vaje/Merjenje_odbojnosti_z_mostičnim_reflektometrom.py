@@ -57,11 +57,7 @@ labels: List[str] = [
 ]
 
 powerInDBm: List[List[float]] = [
-    [1.93, 3.3, 56.24, 3.26, 9.09, 12.7, 25.9, 30.4],
-    [2.6, 3.99, 54.2, 3.78, 9.8, 13.4, 26.7, 31.9],
-    [2.5, 6.1, 51.5, 3.14, 10.95, 14.58, 27.7, 35],
-    [4.4, 7.01, 48.5, 4.6, 10.8, 14.7, 27.18, 35.5],
-    [6.03, 6.75, 46, 7.78, 11.1, 14.8, 26.8, 39.01],
+
 ]
 
 powerInWats: List[List[float]] = convertPower(powerInDBm)
@@ -69,7 +65,8 @@ powerInWats: List[List[float]] = convertPower(powerInDBm)
 averages: List[float] = convertAveragePower(powerInWats)
 averages = [16 * x for x in averages]
 
-reflections: List[List[float]] = convertPowerToReflection(averages, powerInWats)
+reflections: List[List[float]] = convertPowerToReflection(
+    averages, powerInWats)
 
 print("Moč [W]")
 print(powerInWats)
